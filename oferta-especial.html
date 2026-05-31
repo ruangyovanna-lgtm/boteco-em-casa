@@ -1,0 +1,204 @@
+<!doctype html>
+<!--
+  ============================================================
+  Boteco em Casa — Página de UPSELL (one-click pós-compra)
+  Oferta: "Boteco o Ano Inteiro" — R$ 37
+  Site oficial: https://boteco-em-casa.shop/oferta-especial.html
+  Proprietário: Ruan Bruggemann (ruan.gyovanna@gmail.com)
+  Criado em: 2026-05-31
+  © 2026 — Todos os direitos reservados.
+  ============================================================
+
+  >>> COMO USAR ESTA PÁGINA <<<
+  1. No "Gerador de upsell" da Kiwify, clique em "Copiar HTML".
+  2. Cole esse HTML no lugar marcado abaixo:
+        <!-- ====== COLE O BOTÃO DA KIWIFY AQUI ====== -->
+  3. Suba pro GitHub (git add . && commit && push).
+  4. Cole a URL desta página (https://boteco-em-casa.shop/oferta-especial.html)
+     no campo "Cartão ou Pix aprovado" do produto Kit Copa na Kiwify.
+-->
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+<title>Espera! Sua compra ainda não terminou — Boteco o Ano Inteiro</title>
+<meta name="description" content="Oferta única: leve o Boteco o Ano Inteiro com desconto especial. Só aparece agora, depois de garantir seu Kit Copa.">
+<meta name="theme-color" content="#0f0f0f">
+<meta name="robots" content="noindex">
+
+<link rel="icon" href="favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Caveat:wght@600;700&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1815655456482977');
+fbq('track', 'PageView');
+fbq('track', 'ViewContent', {
+  content_name: 'Boteco o Ano Inteiro - Upsell',
+  content_category: 'info-produto-upsell',
+  content_ids: ['boteco-ano-inteiro'],
+  value: 37.00,
+  currency: 'BRL'
+});
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1815655456482977&ev=PageView&noscript=1"/></noscript>
+
+<!-- Estilos específicos da página de upsell (o resto vem do style.css) -->
+<style>
+  .us-alert {
+    background: var(--green-deep, #0d4a1e);
+    border-bottom: 3px solid var(--yellow);
+    text-align: center;
+    padding: 1rem 1.25rem;
+  }
+  .us-alert strong { color: var(--yellow); }
+  .us-confirm {
+    display: flex; align-items: center; gap: .6rem;
+    background: rgba(46,204,113,.12);
+    border: 1px solid var(--good, #2ecc71);
+    border-radius: 10px;
+    padding: .8rem 1rem;
+    margin-bottom: 1.5rem;
+    font-size: .95rem;
+  }
+  .us-confirm .tick { font-size: 1.3rem; }
+  .us-stack { list-style: none; margin: 1.25rem 0; }
+  .us-stack li {
+    display: flex; justify-content: space-between; gap: 1rem;
+    padding: .7rem 0;
+    border-bottom: 1px dashed rgba(255,255,255,.15);
+    font-size: .95rem;
+  }
+  .us-stack li span:last-child { color: var(--muted, #bdbdbd); white-space: nowrap; }
+  .us-total {
+    display: flex; justify-content: space-between; align-items: baseline;
+    margin-top: 1rem; padding-top: 1rem;
+  }
+  .us-total .old { color: var(--muted, #bdbdbd); text-decoration: line-through; font-size: 1.1rem; }
+  .us-total .new { font-family: 'Anton', sans-serif; color: var(--yellow); font-size: 2.2rem; line-height: 1; }
+  .us-btnwrap {
+    text-align: center;
+    margin: 1.5rem 0 .5rem;
+  }
+  /* Garante que o botão colado da Kiwify fique centralizado e grande no mobile */
+  .us-btnwrap a, .us-btnwrap button { max-width: 100%; }
+  .us-decline-note { text-align: center; font-size: .8rem; color: var(--muted, #bdbdbd); margin-top: .75rem; }
+</style>
+</head>
+<body>
+
+<main class="page">
+
+  <!-- BARRA DE ALERTA -->
+  <div class="us-alert">
+    <strong>⚠️ ESPERA! Sua compra ainda não terminou.</strong><br>
+    <span style="font-size:.85rem">Não feche nem aperte "voltar" — você perde esta oferta.</span>
+  </div>
+
+  <!-- HERO DO UPSELL -->
+  <section class="block">
+    <div class="us-confirm">
+      <span class="tick">✅</span>
+      <div>Seu <strong>Kit Boteco Copa</strong> já está garantido e já está na sua área de membros.</div>
+    </div>
+
+    <span class="brush brush--yellow">Oferta única — só aparece agora</span>
+    <h1 class="h-anton">O Kit Copa te salvou em <span class="yellow">junho</span>.<br>E no resto do <span class="yellow">ano</span>?</h1>
+    <p class="lead">Aniversário, churrasco de domingo, Natal, aquele encontro de última hora… as ocasiões não param na Copa. E você vai querer mandar bem em todas.</p>
+    <p>Por isso, <strong>só nesta página</strong>, você pode adicionar o guia que faz de você o anfitrião do ano inteiro — com <strong>1 clique</strong>, sem digitar cartão de novo.</p>
+  </section>
+
+  <!-- APRESENTAÇÃO DO PRODUTO -->
+  <section class="block block--turn">
+    <div class="turn">
+      <div class="turn__copy">
+        <h2 class="h-anton h-anton--small">Conheça o <span class="yellow">Boteco o Ano Inteiro</span></h2>
+        <p>O guia completo, no mesmo capricho do Kit Copa, pra você organizar <strong>qualquer festa, o ano todo</strong> — sem estresse e sem ficar preso no fogão.</p>
+      </div>
+      <div class="turn__img">
+        <img src="img/upsell-capa.jpg" alt="Capa do Boteco o Ano Inteiro" loading="lazy" decoding="async">
+      </div>
+    </div>
+  </section>
+
+  <!-- O QUE TEM DENTRO -->
+  <section class="block block--inside">
+    <span class="brush">6 módulos completos</span>
+    <h2 class="h-anton">Tudo pronto pra <span class="yellow">toda festa do ano</span>.</h2>
+    <ul class="inside-list">
+      <li><strong>📅 Calendário de Festas</strong> — cardápio, lista de compras e checklist prontos pra Réveillon, Carnaval, Festa Junina, Páscoa, Natal, aniversário e encontro casual.</li>
+      <li><strong>🍳 +20 Receitas Extras</strong> — strogonoff, smash de costela, costelinha BBQ, cheesecake, pavê e muito mais, com tempo, rendimento e modo de preparo.</li>
+      <li><strong>🍹 Bar Completo</strong> — drinks com e sem álcool: caipirinha, mojito, sangria, moscow mule, ponche tropical, espumante com frutas…</li>
+      <li><strong>🔥 Modo Churrasco</strong> — técnicas, cortes, ponto da carne e a tabela de "quanto comprar por pessoa".</li>
+      <li><strong>👨‍👩‍👧 Festa pra Multidão</strong> — tabela de escala pronta pra 10, 20 ou 30 pessoas, sem desperdício e sem faltar nada.</li>
+      <li><strong>🎁 Bônus</strong> — guia de decoração e ambiente + playlists temáticas pra criar o clima perfeito.</li>
+    </ul>
+  </section>
+
+  <!-- ANCORAGEM DE VALOR -->
+  <section class="block block--value">
+    <h2 class="h-anton h-anton--small">Olha o que você <span class="yellow">está levando</span>:</h2>
+    <ul class="us-stack">
+      <li><span>📅 Calendário de Festas (7 ocasiões)</span><span>R$ 27</span></li>
+      <li><span>🍳 +20 Receitas Extras</span><span>R$ 27</span></li>
+      <li><span>🍹 Bar Completo (drinks)</span><span>R$ 19</span></li>
+      <li><span>🔥 Modo Churrasco</span><span>R$ 24</span></li>
+      <li><span>👨‍👩‍👧 Festa pra Multidão (escala)</span><span>R$ 17</span></li>
+      <li><span>🎁 Bônus: Decoração + Playlists</span><span>R$ 13</span></li>
+    </ul>
+    <div class="us-total">
+      <span>Valor real: <span class="old">R$ 127</span></span>
+      <span>Hoje: <span class="new">R$ 37</span></span>
+    </div>
+    <p class="anchor">Menos do que uma pizza — e te serve por <strong>festas e festas</strong>, o ano inteiro.</p>
+  </section>
+
+  <!-- CTA / BOTÃO DA KIWIFY -->
+  <section class="block block--final">
+    <h2 class="h-anton h-anton--small">Quer adicionar agora, com <span class="yellow">1 clique</span>?</h2>
+    <p class="micro micro--dark">Você não paga frete nem digita cartão de novo — é só confirmar. A cobrança usa o mesmo pagamento que você acabou de aprovar.</p>
+
+    <div class="us-btnwrap">
+      <!-- Botão one-click da Kiwify (Gerador de upsell) -->
+      <div style="text-align:center" id="kiwify-upsell-53DHU7X" data-upsell-url="" data-downsell-url="">
+        <button id="kiwify-upsell-trigger-53DHU7X" style="background-color:#27AF60;padding:12px 16px;cursor:pointer;color:#FFFFFF;font-weight:600;border-radius:4px;border:1px solid #27AF60;font-size:20px;">SIM! Quero o Boteco o Ano Inteiro por R$37</button>
+        <div id="kiwify-upsell-cancel-trigger-53DHU7X" style="margin-top:1rem;cursor:pointer;font-size:16px;text-decoration:underline;font-family:sans-serif;">Não, prefiro montar minhas próximas festas sem ajuda</div>
+      </div>
+      <script src="https://snippets.kiwify.com/upsell/upsell.min.js"></script>
+    </div>
+
+    <p class="us-decline-note">Oferta válida apenas nesta página. Se sair, ela não volta.</p>
+  </section>
+
+  <!-- GARANTIA -->
+  <section class="block block--guarantee">
+    <div class="guarantee">
+      <div class="guarantee__seal">
+        <svg viewBox="0 0 100 100" width="80" height="80" aria-hidden="true">
+          <path d="M50 5 L90 20 L85 60 Q80 80 50 95 Q20 80 15 60 L10 20 Z" fill="#1a6b2e" stroke="#f5c518" stroke-width="3"/>
+          <text x="50" y="48" text-anchor="middle" fill="#f5c518" font-size="22" font-weight="800" font-family="Anton, sans-serif">7</text>
+          <text x="50" y="68" text-anchor="middle" fill="#fff" font-size="11" font-weight="700" font-family="Inter, sans-serif">DIAS</text>
+        </svg>
+      </div>
+      <h2 class="h-anton h-anton--small">A mesma garantia de <span class="yellow">7 dias</span>.</h2>
+      <p>Não gostou? Manda um e-mail e devolvemos <strong>100% do valor</strong> do Ano Inteiro. Sem perguntas. Você não corre risco nenhum.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p><strong>Boteco em Casa</strong> — Boteco o Ano Inteiro</p>
+    <p class="footer__legal">© 2026 • Todos os direitos reservados</p>
+  </footer>
+
+</main>
+
+</body>
+</html>
